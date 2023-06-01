@@ -7,7 +7,7 @@ using namespace std;
 int main(){
 	double pi = 0.0;
 	string c = "3.141592";
-	for (int i = 0; i <= 866860; i++)
+	for (int i = 0; i < 900000; i++)
 	{
 		double formula = 4*(pow((-1), i)/((2*i)+1));
 		pi += formula;
